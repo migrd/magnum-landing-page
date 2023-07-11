@@ -1,12 +1,12 @@
 export default function Cta() {
   return (
-    <section>
+    <section id="cta">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="relative px-8 py-12 md:py-20 rounded-[3rem] overflow-hidden">
           { /* Radial gradient */}
           <div className="absolute flex items-center justify-center top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/3 aspect-square" aria-hidden="true">
-            <div className="absolute inset-0 translate-z-0 bg-purple-500 rounded-full blur-[120px] opacity-70" />
-            <div className="absolute w-1/4 h-1/4 translate-z-0 bg-purple-400 rounded-full blur-[40px]" />
+            <div className="absolute inset-0 translate-z-0 bg-blue-500 rounded-full blur-[120px] opacity-70" />
+            <div className="absolute w-1/4 h-1/4 translate-z-0 bg-blue-400 rounded-full blur-[40px]" />
           </div>
           { /* Blurred shape */}
           <div className="absolute bottom-0 translate-y-1/2 left-0 blur-2xl opacity-50 pointer-events-none -z-10" aria-hidden="true">
@@ -23,13 +23,15 @@ export default function Cta() {
           { /* Content */}
           <div className="max-w-3xl mx-auto text-center">
             <div>
-              <div className="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">The security first platform</div>
+              {/* <div className="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-blue-200 pb-3">The security first platform</div> */}
             </div>
-            <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">Take control of your business</h2>
-            <p className="text-lg text-slate-400 mb-8">All the lorem ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+            <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">Quem não é visto, não é lembrado, <span className='text-blue-300 font-bold'>quem anda com a Magnum é inesquecível</span></h2>
+            <p className="text-lg text-slate-400 mb-8">Invista no futuro do seu negócio e deixe a Magnum transformar a sua marca em uma referência no mercado. Juntos, vamos construir um caminho de sucesso que irá levar o seu negócio ao topo.</p>
+            <p className="text-lg text-slate-400 mb-8">Entre em contato abaixo para começar a <span className="text-blue-300 font-bold">vender mais!</span></p>
             <div>
-              <a className="btn text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white transition duration-150 ease-in-out group" href="#0">
-                Get Started <span className="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+              <a className="btn text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white transition duration-150 ease-in-out group" href="https://wa.me/+555192152520?text=Ol%C3%A1,%20eu%20quero%20crescer%20minha%20empresa" target="_blank">
+                ENTRE EM CONTATO
+                 {/* <span className="tracking-normal text-blue-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"></span> */}
               </a>
             </div>
           </div>
