@@ -12,7 +12,7 @@ export default function Features() {
   const [tab, setTab] = useState<number>(1)
 
   return (
-    <section>
+    <section id='feature'>
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
 
         { /* Illustration */}
