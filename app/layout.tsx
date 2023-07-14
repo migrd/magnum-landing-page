@@ -1,4 +1,5 @@
 import './css/style.css';
+import Image from 'next/image'
 import { Inter } from 'next/font/google';
 
 const inter = Inter({
@@ -59,6 +60,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </head>
         <body className={`${inter.variable} font-inter antialiased bg-slate-900 text-slate-100 tracking-tight`}>
           <div className="flex flex-col min-h-screen overflow-hidden">
+          <div className="fixed right-0 bottom-0 z-50">
+            <a href="https://wa.me/+555192152520?text=Ol%C3%A1,%20eu%20quero%20crescer%20minha%20empresa" target="_blank">
+              <Image src="https://moein.video/wp-content/uploads/2021/12/Whatsapp-Logo-GIF-WhatsApp-Icon-GIF-Royalty-Free-Animated-Icon-GIF-350px-after-effects-project.gif" width={30} height={30} alt="Whatsapp" className="m-5 w-12 sm:w-12 md:w-14 xl:w-16" />
+            </a>
+          </div>
             {children}
           </div>
         </body>
