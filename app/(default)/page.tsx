@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Agência Magnum',
-  description: 'Page description',
+  description: 'A Magnum é uma empresa especializada em marketing digital e tecnologia, oferecendo soluções inovadoras para negócios que desejam expandir suas vendas, atrair mais clientes e gerenciar suas presenças online. Nossos serviços abrangem desde a criação de chatbots inteligentes, landing pages e sites otimizados, até a automação de processos e a gestão de tráfego pago em plataformas como Facebook Ads, Google Ads e muito mais. Com o nosso método Magnum, diferente do marketing tradicional, proporcionamos resultados tangíveis, pagando as contas dos nossos clientes. Acreditamos em gerar valor para o sucesso dos nossos clientes, pois entendemos que quando eles prosperam, o nosso negócio também prospera. Nossa missão é impulsionar o crescimento dos negócios, oferecendo soluções personalizadas, expertise em marketing digital e tecnologia de ponta. Junte-se à Magnum e descubra o poder de transformar o seu negócio no mercado digital.',
 }
 
 import Hero from '@/components/hero'
