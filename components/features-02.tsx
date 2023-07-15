@@ -113,7 +113,7 @@ export default function Features02() {
                       <div className="md:max-w-[480px] shrink-0 order-1 md:order-none p-6 pt-0 md:p-8 md:pr-0">
                         <div className="mb-5">
                           <div>
-                            <h3 className="inline-flex text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-1">Hotelzinho Pet Refice</h3>
+                            <h3 className="inline-flex text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-1">Hotelzinho Pet Recife</h3>
                             <p className="text-slate-400">Empresa que recebia 20 clientes por mês hoje em dia com nossa assessoria aumentou seu <span className='text-blue-300 font-bold'>número de clientes em 2400%</span>.</p>
                           </div>
                         </div>
