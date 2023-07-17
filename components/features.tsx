@@ -43,6 +43,13 @@ export default function Features() {
                 A missão da Magnum é criar um marketing que vai te ajudar a <span className='text-blue-500 font-bold'>vender</span> seu produto, <span className='text-blue-500 font-bold'>vender</span> mais vezes, <span className='text-blue-500 font-bold'>vender</span> para mais pessoas e <span className='text-blue-500 font-bold'>vender</span> pelo maior preço.
                 </p>
 
+                <div className="flex justify-center items-center mt-10">
+                  <a className="btn text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white transition duration-150 ease-in-out group" href="https://wa.me/+555192152520?text=Ol%C3%A1,%20eu%20quero%20crescer%20minha%20empresa" target="_blank">
+                    ENTRE EM CONTATO
+                      {/* <span className="tracking-normal text-blue-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"></span> */}
+                  </a>
+                </div>
+
                 {/* <div className="mt-8 max-w-xs max-md:mx-auto space-y-2">
                   <button className={`flex items-center text-sm font-medium text-slate-50 rounded border bg-slate-800/25 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100 ${tab !== 1 ? 'border-slate-700 opacity-50' : 'border-blue-700 shadow shadow-blue-500/25'}`} onClick={() => setTab(1)}>
                     <svg className="shrink-0 fill-slate-300 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16">

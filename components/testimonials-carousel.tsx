@@ -190,8 +190,14 @@ export default function TestimonialsCarousel() {
             </button>
           </div>
 
-          <div className="max-w-3xl mx-auto text-center pt-14 pb-12 md:pb-20 pt-15">
+          <div className="max-w-3xl mx-auto text-center pt-14 pb-12 md:pb-12 pt-15">
             <p className="text-lg text-slate-400">Poupe-se do trabalho árduo de encontrar profissionais qualificados e confie na expertise da Magnum para atender às suas necessidades. Com a nossa ajuda, você terá tranquilidade e poderá direcionar seus esforços para impulsionar o <span className='text-blue-300 font-bold'>sucesso do seu negócio</span>.</p>
+          </div>
+          <div className="flex justify-center items-center">
+            <a className="btn text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white transition duration-150 ease-in-out group" href="https://wa.me/+555192152520?text=Ol%C3%A1,%20eu%20quero%20crescer%20minha%20empresa" target="_blank">
+              ENTRE EM CONTATO
+                {/* <span className="tracking-normal text-blue-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"></span> */}
+            </a>
           </div>
 
         </div>
